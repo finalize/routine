@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 
-import routine from './routine';
+import routineReducer from './routineReducer';
 
 export default combineReducers({
-  routine,
+  routineReducer,
 });
